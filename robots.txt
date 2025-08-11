@@ -1,4 +1,5 @@
-User-agent: *
-Disallow:
-Allow: /
+
 Sitemap: https://adityaaswani.com/sitemap.xml
+User-Agent: *
+Allow: /
+Host: https://adityaaswani.com
