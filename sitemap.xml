@@ -11,35 +11,7 @@
         <loc>https://adityaaswani.com/blog/</loc>
     </url>
     <url>
-        <loc>https://adityaaswani.com/blog/building-this-website/</loc>
-        <lastmod>2024-01-20</lastmod>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/blog/page/1/</loc>
-    </url>
-    <url>
         <loc>https://adityaaswani.com/categories/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/categories/automation/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/categories/cross-platform/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/categories/developer-tools/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/categories/frontend/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/categories/mobile-development/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/categories/tutorial/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/categories/web-development/</loc>
     </url>
     <url>
         <loc>https://adityaaswani.com/contact/</loc>
@@ -52,78 +24,6 @@
         <loc>https://adityaaswani.com/projects/</loc>
     </url>
     <url>
-        <loc>https://adityaaswani.com/projects/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/projects/project-1/</loc>
-        <lastmod>2024-01-15</lastmod>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/projects/project-2/</loc>
-        <lastmod>2024-01-10</lastmod>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/projects/project-3/</loc>
-        <lastmod>2024-01-05</lastmod>
-    </url>
-    <url>
         <loc>https://adityaaswani.com/tags/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/analytics/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/animation/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/automation/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/cli/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/dashboard/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/devtools/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/jamstack/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/mobile/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/node-js/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/offline-first/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/performance/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/productivity/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/python/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/react-native/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/react/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/static-site-generator/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/typescript/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/web-development/</loc>
-    </url>
-    <url>
-        <loc>https://adityaaswani.com/tags/zola/</loc>
     </url>
 </urlset>
