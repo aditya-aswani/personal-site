@@ -12,8 +12,4 @@ hero = true
 hero_title = "Hello, I'm Aditya Aswani"
 hero_subtitle = "Software Engineer • Tech Enthusiast • Problem Solver"
 hero_description = "I build innovative digital solutions and love exploring the intersection of technology and creativity. Welcome to my corner of the internet where I share my journey, projects, and insights."
-hero_button_text = "Learn More"
-hero_button_url = "/about/"
-hero_secondary_button_text = "Get In Touch"
-hero_secondary_button_url = "/contact/"
 +++
