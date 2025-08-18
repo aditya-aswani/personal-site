@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Aditya Aswani - Jamstack</title>
+    <subtitle>Software Engineer, Tech Enthusiast, and Problem Solver. Building innovative solutions and sharing knowledge through code.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://adityaaswani.com/tags/jamstack/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://adityaaswani.com/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-20T00:00:00+00:00</updated>
+    <id>https://adityaaswani.com/tags/jamstack/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Building This Website: A Journey with Zola and Modern Web Technologies</title>
+        <published>2024-01-20T00:00:00+00:00</published>
+        <updated>2024-01-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://adityaaswani.com/blog/building-this-website/"/>
+        <id>https://adityaaswani.com/blog/building-this-website/</id>
+        
+        <content type="html" xml:base="https://adityaaswani.com/blog/building-this-website/">&lt;h1 id=&quot;building-this-website-a-journey-with-zola-and-modern-web-technologies&quot;&gt;Building This Website: A Journey with Zola and Modern Web Technologies&lt;a class=&quot;zola-anchor&quot; href=&quot;#building-this-website-a-journey-with-zola-and-modern-web-technologies&quot; aria-label=&quot;Anchor link for: building-this-website-a-journey-with-zola-and-modern-web-technologies&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;When I decided to rebuild my personal website, I wanted something that would be fast, maintainable, and showcase modern web development practices. After evaluating various options, I landed on Zola with the Abridge theme—a decision that proved to be excellent for performance and developer experience.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-i-chose-zola&quot;&gt;Why I Chose Zola&lt;a class=&quot;zola-anchor&quot; href=&quot;#why-i-chose-zola&quot; aria-label=&quot;Anchor link for: why-i-chose-zola&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Static site generators have come a long way, and the ecosystem offers many excellent options. Here’s why Zola stood out for me:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;performance-first&quot;&gt;Performance First&lt;a class=&quot;zola-anchor&quot; href=&quot;#performance-first&quot; aria-label=&quot;Anchor link for: performance-first&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Zola is built in Rust, which means it’s incredibly fast. The build times are lightning quick, even for large sites, and the generated output is optimized for performance out of the box.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;simple-yet-powerful&quot;&gt;Simple Yet Powerful&lt;a class=&quot;zola-anchor&quot; href=&quot;#simple-yet-powerful&quot; aria-label=&quot;Anchor link for: simple-yet-powerful&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Unlike some other static site generators that can become complex quickly, Zola strikes a perfect balance. It’s powerful enough for sophisticated sites but simple enough that you don’t need to fight the framework.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;modern-web-standards&quot;&gt;Modern Web Standards&lt;a class=&quot;zola-anchor&quot; href=&quot;#modern-web-standards&quot; aria-label=&quot;Anchor link for: modern-web-standards&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Zola embraces modern web standards and generates clean, semantic HTML. This was important to me as someone who cares about web accessibility and SEO.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-abridge-theme-performance-meets-aesthetics&quot;&gt;The Abridge Theme: Performance Meets Aesthetics&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-abridge-theme-performance-meets-aesthetics&quot; aria-label=&quot;Anchor link for: the-abridge-theme-performance-meets-aesthetics&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Choosing the right theme was crucial. The Abridge theme caught my attention because of its focus on performance and modern design principles.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;key-features-that-sold-me&quot;&gt;Key Features That Sold Me&lt;a class=&quot;zola-anchor&quot; href=&quot;#key-features-that-sold-me&quot; aria-label=&quot;Anchor link for: key-features-that-sold-me&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;⚡ Lighthouse Perfect Scores&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+The theme consistently achieves perfect Lighthouse scores across all metrics—performance, accessibility, best practices, and SEO.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;🎨 Clean, Semantic HTML&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+The generated markup is clean and semantic, making it accessible and SEO-friendly without sacrificing design flexibility.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;🔧 No Mandatory JavaScript&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Everything works perfectly even with JavaScript disabled, though optional JavaScript enhances the experience with features like search and theme switching.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;📱 Mobile-First Design&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Responsive design that works beautifully across all device sizes, with touch-friendly interactions and optimized loading.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;technical-implementation&quot;&gt;Technical Implementation&lt;a class=&quot;zola-anchor&quot; href=&quot;#technical-implementation&quot; aria-label=&quot;Anchor link for: technical-implementation&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Let me walk you through some of the key technical decisions and implementations that make this site performant and maintainable.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;site-architecture&quot;&gt;Site Architecture&lt;a class=&quot;zola-anchor&quot; href=&quot;#site-architecture&quot; aria-label=&quot;Anchor link for: site-architecture&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;adityaaswani.com&#x2F;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;├── config.toml          # Site configuration
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;├── content&#x2F;             # Markdown content
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;│   ├── _index.md       # Homepage
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;│   ├── about.md        # About page
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;│   ├── blog&#x2F;           # Blog posts
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;│   └── projects&#x2F;       # Project portfolio
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;├── sass&#x2F;               # Custom styling
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;├── static&#x2F;             # Static assets
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;└── templates&#x2F;          # Custom templates (if needed)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;configuration-highlights&quot;&gt;Configuration Highlights&lt;a class=&quot;zola-anchor&quot; href=&quot;#configuration-highlights&quot; aria-label=&quot;Anchor link for: configuration-highlights&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The site configuration focuses on performance and user experience:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; class=&quot;language-toml z-code&quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-toml&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-toml&quot;&gt;#&lt;&#x2F;span&gt; Performance optimizations&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-meta z-tag z-key z-toml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-toml&quot;&gt;compile_sass&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-key-value z-toml&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-toml&quot;&gt;true&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-meta z-tag z-key z-toml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-toml&quot;&gt;minify_html&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-key-value z-toml&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-toml&quot;&gt;true&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-meta z-tag z-key z-toml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-toml&quot;&gt;build_search_index&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-key-value z-toml&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-toml&quot;&gt;true&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-toml&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-toml&quot;&gt;#&lt;&#x2F;span&gt; SEO and social features&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-meta z-tag z-key z-toml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-toml&quot;&gt;generate_feeds&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-key-value z-toml&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-toml&quot;&gt;true&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-table z-begin z-toml&quot;&gt;[&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-tag z-table z-toml&quot;&gt;&lt;span class=&quot;z-entity z-name z-table z-toml&quot;&gt;extra&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-table z-end z-toml&quot;&gt;]&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-toml&quot;&gt;&lt;span class=&quot;z-meta z-tag z-key z-toml&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-toml&quot;&gt;social_media_card&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-definition z-key-value z-toml&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-language z-toml&quot;&gt;true&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;custom-styling&quot;&gt;Custom Styling&lt;a class=&quot;zola-anchor&quot; href=&quot;#custom-styling&quot; aria-label=&quot;Anchor link for: custom-styling&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;While the Abridge theme provides excellent defaults, I added custom styling to make the site uniquely mine:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;scss&quot; class=&quot;language-scss z-code&quot;&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-sass&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-css&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt; Custom color scheme
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-meta z-selector z-css&quot;&gt;&lt;span class=&quot;z-entity z-other z-pseudo-class z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-entity z-css&quot;&gt;:&lt;&#x2F;span&gt;root&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-punctuation z-section z-property-list z-begin z-css&quot;&gt;{&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-custom-property z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-custom-property z-css&quot;&gt;--&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-custom-property z-name z-css&quot;&gt;color-primary&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-constant z-other z-color z-rgb-value z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-constant z-css&quot;&gt;#&lt;&#x2F;span&gt;2563eb&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-custom-property z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-custom-property z-css&quot;&gt;--&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-custom-property z-name z-css&quot;&gt;color-accent&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-constant z-other z-color z-rgb-value z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-constant z-css&quot;&gt;#&lt;&#x2F;span&gt;7c3aed&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-custom-property z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-custom-property z-css&quot;&gt;--&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-type z-custom-property z-name z-css&quot;&gt;color-text&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-constant z-other z-color z-rgb-value z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-constant z-css&quot;&gt;#&lt;&#x2F;span&gt;1f2937&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-property-list z-end z-css&quot;&gt;}&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-comment z-line z-double-slash z-sass&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-css&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt; Enhanced code blocks
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-meta z-selector z-css&quot;&gt;&lt;span class=&quot;z-entity z-name z-tag z-css&quot;&gt;pre&lt;&#x2F;span&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-property-list z-begin z-css&quot;&gt;{&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-property-name z-css&quot;&gt;border-radius&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-css&quot;&gt;8&lt;span class=&quot;z-keyword z-other z-unit z-css&quot;&gt;px&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;  &lt;span class=&quot;z-meta z-property-name z-css&quot;&gt;&lt;span class=&quot;z-support z-type z-property-name z-css&quot;&gt;box-shadow&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-key-value z-css&quot;&gt;:&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-property-value z-css&quot;&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-css&quot;&gt;0&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-css&quot;&gt;4&lt;span class=&quot;z-keyword z-other z-unit z-css&quot;&gt;px&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-css&quot;&gt;6&lt;span class=&quot;z-keyword z-other z-unit z-css&quot;&gt;px&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-css&quot;&gt;-1&lt;span class=&quot;z-keyword z-other z-unit z-css&quot;&gt;px&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-css&quot;&gt;&lt;span class=&quot;z-support z-function z-color z-css&quot;&gt;rgba&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-css&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-constant z-numeric z-css&quot;&gt;0&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-sequence z-css&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-css&quot;&gt;0&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-sequence z-css&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-css&quot;&gt;0&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-sequence z-css&quot;&gt;,&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-float z-decimal z-css&quot;&gt;0&lt;span class=&quot;z-punctuation z-separator z-decimal z-css&quot;&gt;.&lt;&#x2F;span&gt;1&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-css&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-css&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-rule z-css&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-scss&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-property-list z-end z-css&quot;&gt;}&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;performance-optimizations&quot;&gt;Performance Optimizations&lt;a class=&quot;zola-anchor&quot; href=&quot;#performance-optimizations&quot; aria-label=&quot;Anchor link for: performance-optimizations&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Performance was a key priority throughout the development process. Here are some of the optimizations implemented:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;image-optimization&quot;&gt;Image Optimization&lt;a class=&quot;zola-anchor&quot; href=&quot;#image-optimization&quot; aria-label=&quot;Anchor link for: image-optimization&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;WebP format with fallbacks for older browsers&lt;&#x2F;li&gt;
+&lt;li&gt;Responsive image sizing based on viewport&lt;&#x2F;li&gt;
+&lt;li&gt;Lazy loading for images below the fold&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;css-strategy&quot;&gt;CSS Strategy&lt;a class=&quot;zola-anchor&quot; href=&quot;#css-strategy&quot; aria-label=&quot;Anchor link for: css-strategy&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Critical CSS inlined for faster initial render&lt;&#x2F;li&gt;
+&lt;li&gt;Non-critical CSS loaded asynchronously&lt;&#x2F;li&gt;
+&lt;li&gt;SCSS compilation with autoprefixing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;javascript-approach&quot;&gt;JavaScript Approach&lt;a class=&quot;zola-anchor&quot; href=&quot;#javascript-approach&quot; aria-label=&quot;Anchor link for: javascript-approach&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Progressive enhancement philosophy&lt;&#x2F;li&gt;
+&lt;li&gt;Optional JavaScript for enhanced features&lt;&#x2F;li&gt;
+&lt;li&gt;Minimal bundle sizes with tree shaking&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;lighthouse-results&quot;&gt;Lighthouse Results&lt;a class=&quot;zola-anchor&quot; href=&quot;#lighthouse-results&quot; aria-label=&quot;Anchor link for: lighthouse-results&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The optimizations paid off with excellent Lighthouse scores:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Performance&lt;&#x2F;strong&gt;: 100&#x2F;100&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Accessibility&lt;&#x2F;strong&gt;: 100&#x2F;100&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Best Practices&lt;&#x2F;strong&gt;: 100&#x2F;100&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;SEO&lt;&#x2F;strong&gt;: 100&#x2F;100&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;content-strategy&quot;&gt;Content Strategy&lt;a class=&quot;zola-anchor&quot; href=&quot;#content-strategy&quot; aria-label=&quot;Anchor link for: content-strategy&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;The site architecture supports multiple content types while maintaining simplicity:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;homepage&quot;&gt;Homepage&lt;a class=&quot;zola-anchor&quot; href=&quot;#homepage&quot; aria-label=&quot;Anchor link for: homepage&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;A welcoming introduction that clearly communicates who I am and what I do, with clear calls-to-action to explore further.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;about-page&quot;&gt;About Page&lt;a class=&quot;zola-anchor&quot; href=&quot;#about-page&quot; aria-label=&quot;Anchor link for: about-page&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Detailed background information that tells my story and showcases my expertise and personality.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;project-portfolio&quot;&gt;Project Portfolio&lt;a class=&quot;zola-anchor&quot; href=&quot;#project-portfolio&quot; aria-label=&quot;Anchor link for: project-portfolio&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Comprehensive project showcases with technical details, challenges, and solutions.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;blog&quot;&gt;Blog&lt;a class=&quot;zola-anchor&quot; href=&quot;#blog&quot; aria-label=&quot;Anchor link for: blog&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Regular content covering technical topics, project insights, and industry thoughts.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deployment-and-hosting&quot;&gt;Deployment and Hosting&lt;a class=&quot;zola-anchor&quot; href=&quot;#deployment-and-hosting&quot; aria-label=&quot;Anchor link for: deployment-and-hosting&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;The site is hosted on modern cloud infrastructure with these considerations:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;static-hosting&quot;&gt;Static Hosting&lt;a class=&quot;zola-anchor&quot; href=&quot;#static-hosting&quot; aria-label=&quot;Anchor link for: static-hosting&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fast global CDN distribution&lt;&#x2F;li&gt;
+&lt;li&gt;Automatic HTTPS with modern TLS&lt;&#x2F;li&gt;
+&lt;li&gt;Excellent uptime and reliability&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;ci-cd-pipeline&quot;&gt;CI&#x2F;CD Pipeline&lt;a class=&quot;zola-anchor&quot; href=&quot;#ci-cd-pipeline&quot; aria-label=&quot;Anchor link for: ci-cd-pipeline&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Automated builds on content changes&lt;&#x2F;li&gt;
+&lt;li&gt;Deploy previews for testing&lt;&#x2F;li&gt;
+&lt;li&gt;Performance monitoring and alerts&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;domain-and-dns&quot;&gt;Domain and DNS&lt;a class=&quot;zola-anchor&quot; href=&quot;#domain-and-dns&quot; aria-label=&quot;Anchor link for: domain-and-dns&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Custom domain with proper DNS configuration&lt;&#x2F;li&gt;
+&lt;li&gt;Performance optimized DNS resolution&lt;&#x2F;li&gt;
+&lt;li&gt;Security headers and policies&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons Learned&lt;a class=&quot;zola-anchor&quot; href=&quot;#lessons-learned&quot; aria-label=&quot;Anchor link for: lessons-learned&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Building this site taught me several valuable lessons:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;simplicity-wins&quot;&gt;Simplicity Wins&lt;a class=&quot;zola-anchor&quot; href=&quot;#simplicity-wins&quot; aria-label=&quot;Anchor link for: simplicity-wins&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Starting with a solid foundation (Zola + Abridge) and building incrementally proved much more effective than trying to build everything from scratch.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;performance-budget&quot;&gt;Performance Budget&lt;a class=&quot;zola-anchor&quot; href=&quot;#performance-budget&quot; aria-label=&quot;Anchor link for: performance-budget&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Setting a performance budget early and sticking to it ensures the site remains fast as content grows.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;content-first-approach&quot;&gt;Content-First Approach&lt;a class=&quot;zola-anchor&quot; href=&quot;#content-first-approach&quot; aria-label=&quot;Anchor link for: content-first-approach&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Focusing on content structure and user experience before visual design leads to better outcomes.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;progressive-enhancement&quot;&gt;Progressive Enhancement&lt;a class=&quot;zola-anchor&quot; href=&quot;#progressive-enhancement&quot; aria-label=&quot;Anchor link for: progressive-enhancement&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Building features that work without JavaScript and then enhancing them creates a more robust user experience.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;future-enhancements&quot;&gt;Future Enhancements&lt;a class=&quot;zola-anchor&quot; href=&quot;#future-enhancements&quot; aria-label=&quot;Anchor link for: future-enhancements&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;While the current site meets all my goals, I have plans for future improvements:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;interactive-features&quot;&gt;Interactive Features&lt;a class=&quot;zola-anchor&quot; href=&quot;#interactive-features&quot; aria-label=&quot;Anchor link for: interactive-features&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Comment system for blog posts&lt;&#x2F;li&gt;
+&lt;li&gt;Newsletter subscription&lt;&#x2F;li&gt;
+&lt;li&gt;Contact form enhancements&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;content-expansion&quot;&gt;Content Expansion&lt;a class=&quot;zola-anchor&quot; href=&quot;#content-expansion&quot; aria-label=&quot;Anchor link for: content-expansion&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Video tutorials and screencasts&lt;&#x2F;li&gt;
+&lt;li&gt;Podcast integration&lt;&#x2F;li&gt;
+&lt;li&gt;Case study deep-dives&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;technical-improvements&quot;&gt;Technical Improvements&lt;a class=&quot;zola-anchor&quot; href=&quot;#technical-improvements&quot; aria-label=&quot;Anchor link for: technical-improvements&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Advanced analytics implementation&lt;&#x2F;li&gt;
+&lt;li&gt;A&#x2F;B testing for content optimization&lt;&#x2F;li&gt;
+&lt;li&gt;Enhanced accessibility features&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Building this website with Zola and the Abridge theme has been an excellent experience. The combination provides the perfect balance of performance, maintainability, and flexibility that I was looking for.&lt;&#x2F;p&gt;
+&lt;p&gt;The static site approach offers benefits that are hard to ignore:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lightning-fast loading times&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Excellent SEO performance&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Simple deployment and hosting&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Outstanding security&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Low maintenance overhead&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;For anyone considering a similar approach for their personal site or blog, I highly recommend exploring Zola and the Abridge theme. The learning curve is gentle, the documentation is excellent, and the results speak for themselves.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;Want to see how something specific was implemented? Feel free to &lt;a href=&quot;&#x2F;contact&#x2F;&quot;&gt;reach out&lt;&#x2F;a&gt; with questions, or check out the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aditya-aswani&#x2F;personal-site&quot;&gt;source code&lt;&#x2F;a&gt; to see all the details.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
