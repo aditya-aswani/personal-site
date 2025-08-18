@@ -198,3 +198,19 @@ html {
   background-color: var(--color-primary);
   color: white;
 }
+
+// Remove title linking - make page titles appear as normal text
+h1 a, h1 a:hover, h1 a:visited, h1 a:focus {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: default !important;
+  pointer-events: none !important;
+}
+
+// Also apply to any title-specific classes the theme might use
+.title a, .title a:hover, .title a:visited, .title a:focus {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: default !important;
+  pointer-events: none !important;
+}

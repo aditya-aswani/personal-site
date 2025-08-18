@@ -4,7 +4,6 @@ description = "Welcome to my digital space. I'm a passionate software engineer w
 template = "home.html"
 paginate_by = 1
 sort_by = "date"
-insert_anchor_links = "none"
 
 [extra]
 featured = true
