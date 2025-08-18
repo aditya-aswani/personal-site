@@ -57,6 +57,7 @@ back_to_top = true
 toc = false
 copybtn = true
 email_encode = true
+hide_page_nextprev_titles = true
 
 # Social Links
 social_media_card = true
