@@ -216,25 +216,42 @@ h1 a, h1 a:hover, h1 a:visited, h1 a:focus {
 }
 
 // Ensure uniform heading sizes across all page templates
-// Standardize all page titles to the same size
+// Standardize all page titles to the same size regardless of template
+h1,
 article h1, 
 section h1, 
 .archive h1,
 .page h1,
-main h1 {
+main h1,
+.content h1,
+.post h1,
+header h1 {
   font-size: 2.5rem !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
   margin-bottom: 1rem !important;
+  margin-top: 0 !important;
+}
+
+// Also target the title links specifically
+h1 a {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
 }
 
 // For smaller screens
 @media (max-width: 768px) {
+  h1,
   article h1, 
   section h1, 
   .archive h1,
   .page h1,
-  main h1 {
+  main h1,
+  .content h1,
+  .post h1,
+  header h1,
+  h1 a {
     font-size: 2rem !important;
   }
 }
