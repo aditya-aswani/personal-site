@@ -1,8 +1,8 @@
 +++
 title = "Aditya Aswani - Software Engineer & Tech Enthusiast"
 description = "Welcome to my digital space. I'm a passionate software engineer who loves building innovative solutions and sharing knowledge through code."
-template = "index.html"
-paginate_by = 100
+template = "home.html"
+paginate_by = 1
 sort_by = "date"
 insert_anchor_links = "right"
 

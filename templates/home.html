@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero">
+  <div class="hero-content">
+    <h1>{{ section.extra.hero_title | default(value="Hello, World!") }}</h1>
+    <p class="subtitle">{{ section.extra.hero_subtitle | default(value="") }}</p>
+    <p class="description">{{ section.extra.hero_description | default(value="") }}</p>
+    
+    {% if section.extra.hero_button_text and section.extra.hero_button_url %}
+    <div class="hero-buttons">
+      <a href="{{ section.extra.hero_button_url }}" class="btn btn-primary">{{ section.extra.hero_button_text }}</a>
+      {% if section.extra.hero_secondary_button_text and section.extra.hero_secondary_button_url %}
+      <a href="{{ section.extra.hero_secondary_button_url }}" class="btn btn-secondary">{{ section.extra.hero_secondary_button_text }}</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{{ section.content | safe }}
+{% endblock content %}
