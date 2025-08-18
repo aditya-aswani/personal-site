@@ -1,19 +1,94 @@
 # The URL the site will be built for
 base_url = "https://adityaaswani.com/"
 title = "Aditya Aswani"
+description = "Software Engineer, Tech Enthusiast, and Problem Solver. Building innovative solutions and sharing knowledge through code."
 theme = "abridge"
 
-# Whether to automatically compile all Sass files in the sass directory
+default_language = "en"
 compile_sass = true
+minify_html = true
+build_search_index = true
+generate_feeds = true
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+taxonomies = [
+    {name = "tags", feed = true},
+    {name = "categories", feed = true},
+]
+
+[search]
+index_format = "elasticlunr_json"
+include_title = true
+include_description = true
+include_content = true
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+highlight_code = true
+highlight_theme = "css"
+bottom_footnotes = true
+render_emoji = true
+external_links_target_blank = true
+external_links_no_follow = false
+external_links_no_referrer = false
+smart_punctuation = true
 
 [extra]
-# Put all your custom variables here
+# Theme Configuration
+title_separator = " | "
+title_addition = "Aditya Aswani - Software Engineer"
+email = "hello@adityaaswani.com"
+author = "Aditya Aswani"
+author_url = "https://adityaaswani.com"
+
+# PWA Configuration
+pwa = true
+pwa_name = "Aditya Aswani"
+pwa_short_name = "Aditya"
+pwa_icon_144 = "m144.png"
+pwa_icon_192 = "m192.png"
+pwa_icon_512 = "m512.png"
+pwa_display = "standalone"
+pwa_orientation = "portrait"
+pwa_scope = "/"
+pwa_start_url = "/"
+
+# UI/UX Configuration
+theme_switcher = true
+back_to_top = true
+toc = true
+copybtn = true
+email_encode = true
+
+# Social Links
+social_media_card = true
+social = [
+    {name = "github", url = "https://github.com/aditya-aswani"},
+    {name = "linkedin", url = "https://linkedin.com/in/adityaaswani"},
+    {name = "twitter", url = "https://twitter.com/adityaaswani"},
+]
+
+# Navigation Menu
+menu = [
+    {name = "About", url = "/about/", weight = 10},
+    {name = "Projects", url = "/projects/", weight = 20},
+    {name = "Blog", url = "/blog/", weight = 30},
+    {name = "Contact", url = "/contact/", weight = 40},
+]
+
+# SEO and Analytics
+keywords = "software engineer, web development, programming, technology, blog"
+meta_keywords = ["software engineering", "web development", "programming", "technology", "blog"]
+
+# Recent posts configuration
+recent = true
+recent_items = 5
+
+# Search configuration
+search = true
+search_library = "elasticlunr"
+
+# Math support
+katex = true
+
+# Code highlighting
+prism = false
 
