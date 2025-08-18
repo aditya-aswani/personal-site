@@ -68,10 +68,10 @@ social = [
 
 # Navigation Menu
 menu = [
-    {name = "About", url = "/about/", weight = 10},
-    {name = "Projects", url = "/projects/", weight = 20},
-    {name = "Blog", url = "/blog/", weight = 30},
-    {name = "Contact", url = "/contact/", weight = 40},
+    {url = "about", name = "About", slash = true, blank = false},
+    {url = "projects", name = "Projects", slash = true, blank = false},
+    {url = "blog", name = "Blog", slash = true, blank = false},
+    {url = "contact", name = "Contact", slash = true, blank = false},
 ]
 
 # SEO and Analytics
