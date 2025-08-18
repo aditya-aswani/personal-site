@@ -27,6 +27,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Blog</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://adityaaswani.com/blog/"/>
+        <id>https://adityaaswani.com/blog/</id>
+        
+        <content type="html" xml:base="https://adityaaswani.com/blog/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Contact Me</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>
@@ -43,6 +62,25 @@
         <id>https://adityaaswani.com/contact/</id>
         
         <content type="html" xml:base="https://adityaaswani.com/contact/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Projects</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://adityaaswani.com/projects/"/>
+        <id>https://adityaaswani.com/projects/</id>
+        
+        <content type="html" xml:base="https://adityaaswani.com/projects/"></content>
         
     </entry>
 </feed>
