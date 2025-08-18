@@ -12,10 +12,10 @@ hero = true
 hero_title = "Hello, I'm Aditya Aswani"
 hero_subtitle = "Software Engineer • Tech Enthusiast • Problem Solver"
 hero_description = "I build innovative digital solutions and love exploring the intersection of technology and creativity. Welcome to my corner of the internet where I share my journey, projects, and insights."
-hero_button_text = "Explore My Work"
-hero_button_url = "/projects/"
-hero_secondary_button_text = "Get In Touch"
-hero_secondary_button_url = "/contact/"
+hero_button_text = "Learn More"
+hero_button_url = "/about/"
+hero_secondary_button_text = "View My Work"
+hero_secondary_button_url = "#work"
 +++
 
 # Welcome to My Digital Space
@@ -38,6 +38,6 @@ Staying curious and always exploring new tools, frameworks, and methodologies.
 
 ---
 
-## Latest from the Blog
+## My Work {#work}
 
-*Recent thoughts, tutorials, and insights from my development journey.*
+*Projects, contributions, and professional experience coming soon.*
