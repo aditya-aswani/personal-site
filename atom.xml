@@ -23,9 +23,7 @@
         <link rel="alternate" type="text/html" href="https://adityaaswani.com/about/"/>
         <id>https://adityaaswani.com/about/</id>
         
-        <content type="html" xml:base="https://adityaaswani.com/about/">&lt;h1 id=&quot;about&quot;&gt;About&lt;&#x2F;h1&gt;
-&lt;p&gt;&lt;em&gt;Coming soon…&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://adityaaswani.com/about/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -44,9 +42,7 @@
         <link rel="alternate" type="text/html" href="https://adityaaswani.com/contact/"/>
         <id>https://adityaaswani.com/contact/</id>
         
-        <content type="html" xml:base="https://adityaaswani.com/contact/">&lt;h1 id=&quot;contact&quot;&gt;Contact&lt;&#x2F;h1&gt;
-&lt;p&gt;&lt;em&gt;Coming soon…&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-</content>
+        <content type="html" xml:base="https://adityaaswani.com/contact/"></content>
         
     </entry>
 </feed>
