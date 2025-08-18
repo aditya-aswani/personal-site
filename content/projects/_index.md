@@ -1,7 +1,7 @@
 +++
 title = "Projects"
 description = "My project portfolio."
-template = "section.html"
+template = "archive.html"
 sort_by = "weight"
 paginate_by = 10
 insert_anchor_links = "right"
