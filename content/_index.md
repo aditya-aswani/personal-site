@@ -8,7 +8,6 @@ sort_by = "date"
 [extra]
 featured = true
 hero = true
-hero_title = "Hello, I'm Aditya Aswani"
-hero_subtitle = "Spiritual Friend"
-hero_description = "I like to meditate and write. Welcome to my corner of the internet where I share my journey, projects, and insights."
+hero_title = "Hi, I'm Aditya"
+hero_description = "I like to meditate and write. Welcome to my corner of the internet where I share my journey."
 +++

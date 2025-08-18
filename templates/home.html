@@ -1,10 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="hero">
+<div class="hero-split">
+  <div class="hero-image">
+    <img src="/aditya-photo.jpg" alt="Aditya Aswani" class="profile-photo">
+  </div>
+  
   <div class="hero-content">
     <h1>{{ section.extra.hero_title | default(value="Hello, World!") }}</h1>
-    <p class="subtitle">{{ section.extra.hero_subtitle | default(value="") }}</p>
     <p class="description">{{ section.extra.hero_description | default(value="") }}</p>
     
     {% if section.extra.hero_button_text and section.extra.hero_button_url %}
