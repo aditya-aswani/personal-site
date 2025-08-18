@@ -9,7 +9,3 @@ insert_anchor_links = "none"
 [extra]
 toc = false
 +++
-
-# About
-
-*Coming soon...*
