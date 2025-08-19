@@ -84,7 +84,7 @@ recent = false
 recent_items = 5
 
 # Search configuration
-search = true
+search = false
 search_library = "elasticlunr"
 
 # Math support
