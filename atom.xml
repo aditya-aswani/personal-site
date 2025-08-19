@@ -5,10 +5,29 @@
     <link rel="self" type="application/atom+xml" href="https://adityaaswani.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://adityaaswani.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
+    <updated>2025-08-19T00:00:00+00:00</updated>
     <id>https://adityaaswani.com/atom.xml</id>
     <entry xml:lang="en">
-        <title>About Me</title>
+        <title>Learn Meditation</title>
+        <published>2025-08-19T00:00:00+00:00</published>
+        <updated>2025-08-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://adityaaswani.com/learn-meditation/"/>
+        <id>https://adityaaswani.com/learn-meditation/</id>
+        
+        <content type="html" xml:base="https://adityaaswani.com/learn-meditation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>About</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>
         
@@ -23,26 +42,40 @@
         <link rel="alternate" type="text/html" href="https://adityaaswani.com/about/"/>
         <id>https://adityaaswani.com/about/</id>
         
-        <content type="html" xml:base="https://adityaaswani.com/about/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Blog</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://adityaaswani.com/blog/"/>
-        <id>https://adityaaswani.com/blog/</id>
-        
-        <content type="html" xml:base="https://adityaaswani.com/blog/"></content>
+        <content type="html" xml:base="https://adityaaswani.com/about/">&lt;p&gt;I’m Aditya and I’m passionate about meditation. I made this website to have one place that connects all the different things I’m working on. Here’s what they are:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pause Pal&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a program where participants are matched as meditation partners and accountability buddies. Over the course of four weeks, participants meditate together on a schedule they choose. The goal is to build a regular meditation habit.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Caliro&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;A custom Android operating system designed to help people use their phones mindfully.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;blogs&quot;&gt;Blogs&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Love Yourself Unconditionally&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;This blog is for long-form content such as essays. I write about a variety of topics, from AI to pornography addiction.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Gentle Velocity&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;This blog is for short-form content where I give regular updates on my productivity and how my day went.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;learn-to-meditate&quot;&gt;Learn to Meditate&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If you’re looking for guidance on how to meditate, I’m happy to offer some on a purely donation basis :)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Thanks for visiting my site :)&lt;&#x2F;p&gt;
+&lt;p&gt;May all beings be happy, healthy, and safe.&lt;&#x2F;p&gt;
+</content>
         
     </entry>
     <entry xml:lang="en">
@@ -62,25 +95,6 @@
         <id>https://adityaaswani.com/contact/</id>
         
         <content type="html" xml:base="https://adityaaswani.com/contact/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Projects</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://adityaaswani.com/projects/"/>
-        <id>https://adityaaswani.com/projects/</id>
-        
-        <content type="html" xml:base="https://adityaaswani.com/projects/"></content>
         
     </entry>
 </feed>
