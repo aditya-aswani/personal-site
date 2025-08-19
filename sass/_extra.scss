@@ -18,7 +18,7 @@
   
   // Neutral palette
   --color-text: #1f2937;
-  --color-text-light: #6b7280;
+  --color-text-light: #374151;
   --color-background: #ffffff;
   --color-surface: #f9fafb;
   --color-border: #e5e7eb;
@@ -156,6 +156,42 @@ code {
   }
 }
 
+// Override Abridge theme colors for better contrast in both light and dark modes
+// Light mode - make text darker for better contrast against white background
+:root.switch .hero-content .description {
+  color: #374151 !important;
+}
+
+:root.switch .hero-content h1 {
+  color: #1f2937 !important;
+}
+
+// Dark mode - make text lighter for better contrast against dark background
+:root:not(.switch) .hero-content .description {
+  color: #d1d5db !important;
+}
+
+:root:not(.switch) .hero-content h1 {
+  color: #f9fafb !important;
+}
+
+// Additional fallbacks for manual theme switching
+body:not(.dark) .hero-content .description {
+  color: #374151 !important;
+}
+
+body:not(.dark) .hero-content h1 {
+  color: #1f2937 !important;
+}
+
+body.dark .hero-content .description {
+  color: #d1d5db !important;
+}
+
+body.dark .hero-content h1 {
+  color: #f9fafb !important;
+}
+
 // Dark mode support
 @media (prefers-color-scheme: dark) {
   :root {
@@ -256,22 +292,44 @@ h1 a {
   }
 }
 
-// Split hero section with image and text
+// Homepage full viewport layout - apply to any page with hero-split
+body:has(.hero-split) {
+  overflow: hidden;
+  height: 100vh;
+}
+
+body:has(.hero-split) main {
+  height: 100vh;
+  overflow: hidden;
+}
+
+// Fallback for browsers without :has() support
+.hero-split {
+  /* This will automatically make body use full viewport via the container */
+}
+
+// Split hero section with image and text - full viewport responsive
 .hero-split {
   display: flex;
   align-items: center;
-  min-height: 80vh;
+  height: 100vh;
   padding: 2rem;
-  gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  gap: 4vw;
+  max-width: none;
+  margin: 0;
+  box-sizing: border-box;
   
   @media (max-width: 768px) {
     flex-direction: column;
     text-align: center;
-    min-height: auto;
-    padding: 2rem 1rem;
-    gap: 2rem;
+    padding: 4vh 2rem;
+    gap: 4vh;
+    justify-content: center;
+  }
+  
+  @media (max-height: 600px) {
+    padding: 2vh 2rem;
+    gap: 2vw;
   }
 }
 
@@ -282,8 +340,8 @@ h1 a {
   align-items: center;
   
   .profile-photo {
-    width: 400px;
-    height: 400px;
+    width: min(40vh, 35vw, 400px);
+    height: min(40vh, 35vw, 400px);
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
@@ -298,13 +356,13 @@ h1 a {
     }
     
     @media (max-width: 768px) {
-      width: 300px;
-      height: 300px;
+      width: min(30vh, 60vw, 300px);
+      height: min(30vh, 60vw, 300px);
     }
     
-    @media (max-width: 480px) {
-      width: 250px;
-      height: 250px;
+    @media (max-height: 600px) {
+      width: min(25vh, 25vw, 200px);
+      height: min(25vh, 25vw, 200px);
     }
   }
 }
@@ -318,29 +376,27 @@ h1 a {
   }
   
   h1 {
-    font-size: 3.5rem !important;
+    font-size: clamp(2rem, 6vw, 4.5rem) !important;
     margin-bottom: 1.5rem !important;
     font-weight: 800 !important;
     color: var(--color-text) !important;
     line-height: 1.1 !important;
     
-    @media (max-width: 768px) {
-      font-size: 2.5rem !important;
-    }
-    
-    @media (max-width: 480px) {
-      font-size: 2rem !important;
+    @media (max-height: 600px) {
+      font-size: clamp(1.5rem, 4vh, 2.5rem) !important;
+      margin-bottom: 1rem !important;
     }
   }
   
   .description {
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
     margin-bottom: 2rem;
     color: var(--color-text-light);
     line-height: 1.6;
     
-    @media (max-width: 768px) {
-      font-size: 1.1rem;
+    @media (max-height: 600px) {
+      font-size: clamp(0.9rem, 2vh, 1.2rem);
+      margin-bottom: 1rem;
     }
   }
   
