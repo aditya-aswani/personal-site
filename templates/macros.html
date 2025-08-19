@@ -1,0 +1,45 @@
+{% macro nav_menu() %}
+  <ul>
+    <!-- About -->
+    <li><a href="{{ get_url(path='about', trailing_slash=true) }}">About</a></li>
+    
+    <!-- Projects Dropdown -->
+    <li>
+      <div class="dropdown">
+        <span class="dropdown-toggle">Projects</span>
+        <div class="dropdown-content">
+          <a href="https://pausepal.app" target="_blank">Pause Pal</a>
+          <a href="https://caliro.org" target="_blank">Caliro</a>
+        </div>
+      </div>
+    </li>
+    
+    <!-- Blog Dropdown -->
+    <li>
+      <div class="dropdown">
+        <span class="dropdown-toggle">Blog</span>
+        <div class="dropdown-content">
+          <a href="https://adityaaswani.substack.com/" target="_blank">Love Yourself Unconditionally</a>
+          <a href="https://log.adityaaswani.com/" target="_blank">Gentle Velocity</a>
+        </div>
+      </div>
+    </li>
+    
+    <!-- Learn Meditation -->
+    <li><a href="{{ get_url(path='learn-meditation', trailing_slash=true) }}">Learn Meditation</a></li>
+    
+    <!-- Contact -->
+    <li><a href="{{ get_url(path='contact', trailing_slash=true) }}">Contact</a></li>
+    
+    <!-- Theme Switcher -->
+    {% set js_switcher = config.extra.js_switcher | default(value=true) %}
+    {% if js_switcher %}
+      {% set icon_adjust = config.extra.icon_adjust | default(value="svgs adjust") %}
+      {% if icon_adjust %}
+        <li><i type="reset" id="mode" class="js {{ icon_adjust }}"></i></li>
+      {% else %}
+        <li><i type="reset" id="mode" class="js mode">&#9728;</i></li>
+      {% endif %}
+    {% endif %}
+  </ul>
+{% endmacro nav_menu %}

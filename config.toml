@@ -67,13 +67,8 @@ social = [
     {name = "twitter", url = "https://twitter.com/adityaaswani"},
 ]
 
-# Navigation Menu
-menu = [
-    {url = "about", name = "About", slash = true, blank = false},
-    {url = "projects", name = "Projects", slash = true, blank = false},
-    {url = "blog", name = "Blog", slash = true, blank = false},
-    {url = "contact", name = "Contact", slash = true, blank = false},
-]
+# Navigation Menu - now handled by custom template
+# menu = []
 
 # SEO and Analytics
 keywords = "software engineer, web development, programming, technology, blog"

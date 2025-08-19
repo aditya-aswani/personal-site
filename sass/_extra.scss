@@ -346,6 +346,43 @@ body:has(.hero-split) footer {
   /* This will automatically make body use full viewport via the container */
 }
 
+// Custom styling for dropdown navigation
+.dropdown span {
+  cursor: pointer;
+  color: var(--f2);
+  text-decoration: none;
+  font-weight: var(--fh);
+  
+  &:hover {
+    color: var(--a3);
+  }
+}
+
+// Enhanced dropdown content styling
+.dropdown-content {
+  min-width: 280px !important; /* Make dropdowns wider */
+  width: max-content !important; /* Allow content to determine width */
+  text-align: left !important; /* Left align text for better readability */
+  
+  a {
+    padding: 0.75rem 1rem !important; /* More padding for better spacing */
+    margin: 0 !important; /* Remove default margins */
+    white-space: nowrap !important; /* Prevent text wrapping */
+    border-bottom: 1px solid var(--c3) !important; /* Clear separation between items */
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: var(--c3) !important;
+      color: var(--a1) !important;
+      transform: translateX(3px); /* Subtle hover animation */
+    }
+    
+    &:last-child {
+      border-bottom: none !important; /* Remove border from last item */
+    }
+  }
+}
+
 // Split hero section with image and text - adjusted for footer space
 .hero-split {
   display: flex;
