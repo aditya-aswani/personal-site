@@ -14,21 +14,23 @@ I'm Aditya and I made this website to have one place that connects all the diffe
 
 ## Projects
 
-- **Pause Pal**
+- [**Pause Pal**](https://pausepal.app/)
     - This is a program where participants are matched as meditation partners and accountability buddies. Over the course of four weeks, participants meditate together on a schedule they choose. The goal is to build a regular meditation habit.
-- **Caliro**
+- [**Caliro**](https://caliro.org/)
     - A custom Android operating system designed to help people use their phones mindfully.
 
 ## Blogs
 
-- **Love Yourself Unconditionally**
+- [**Love Yourself Unconditionally**](https://adityaaswani.substack.com/)
     - This blog is for long-form content such as essays. I write about a variety of topics, from AI to pornography addiction.
-- **Gentle Velocity**
+- [**Gentle Velocity**](https://log.adityaaswani.com/)
     - This blog is for short-form content where I give regular updates on my productivity and how my day went.
 
-## Learn to Meditate
+## [Learn to Meditate](https://adityaaswani.com/learn-meditation/)
 
 - If you're looking for guidance on how to meditate, I'm happy to offer some on a purely donation basis :)
+
+---
 
 Thanks for visiting my site :)
 

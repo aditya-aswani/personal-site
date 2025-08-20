@@ -50,6 +50,9 @@ My schedule is quite open so feel free to find a time that works for you on this
 ## Questions
 If you are not yet ready to schedule, but simply have questions, you can find a link to my contact page [here](https://adityaaswani.com/contact/).
 
+## Feedback
+If you have any feedback for me, feel free to send it to me [here](https://adityaaswani.com/contact/#share-feedback).
+
 ---
 I look forward to meeting with you :) 
 

@@ -1,4 +1,27 @@
 {% extends "base.html" %}
+{%- import 'macros/seo.html' as macros_seo %}
+
+{%- block seo %}
+  {{- super() }}
+
+  {%- if section.title %}
+    {%- set title = section.title %}
+  {%- else %}
+    {%- set title = config.title %}
+  {%- endif %}
+
+  {%- if config.extra.title_separator %}
+    {%- set title_separator = " " ~ config.extra.title_separator ~ " " -%}
+  {%- else %}
+    {%- set title_separator = " | " -%}
+  {%- endif %}
+
+  {%- set title_addition = "" %}
+
+  {%- set description = section.description | default(value=config.description) %}
+
+  {{- macros_seo::seo(config=config, title=title, title_addition=title_addition, description=description, is_home=true) }}
+{%- endblock seo %}
 
 {% block content %}
 <div class="hero-split">

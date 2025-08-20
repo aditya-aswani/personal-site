@@ -63,3 +63,6 @@ Also, if you'd prefer to give your feedback to me through someone else, feel fre
 [YouTube](https://www.youtube.com/user/brooklynchai)
 
 [Email](mailto:myc219@nyu.edu)
+
+---
+May all beings be happy, healthy, and safe.
