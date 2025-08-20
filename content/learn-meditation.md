@@ -45,10 +45,10 @@ In follow-up sessions, we'll explore how your practice has developed since we la
 Furthermore, between sessions, I may suggest some practice goals, such as a certain number of meditation minutes or relevant readings.
 
 ## Scheduling
-My schedule is quite open so feel free to find a time that works for you on this link here.
+My schedule is quite open so feel free to find a time that works for you on this link [here](https://cal.com/adityaa).
 
 ## Questions
-If you are not yet ready to schedule, but simply have questions, you can find a link to my contact page here.
+If you are not yet ready to schedule, but simply have questions, you can find a link to my contact page [here](https://adityaaswani.com/contact/).
 
 ---
 I look forward to meeting with you :) 
