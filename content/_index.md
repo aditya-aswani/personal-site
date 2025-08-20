@@ -1,6 +1,6 @@
 +++
-title = "Aditya Aswani - Spiritual Friend"
-description = "Welcome to my digital space. I'm a passionate software engineer who loves building innovative solutions and sharing knowledge through code."
+title = "Aditya Aswani"
+description = "Welcome to my humble digital abode. I like to meditate and write."
 template = "home.html"
 paginate_by = 1
 sort_by = "date"
@@ -9,5 +9,5 @@ sort_by = "date"
 featured = true
 hero = true
 hero_title = "Hi, I'm Aditya"
-hero_description = "I like to meditate and write. Welcome to my corner of the internet where I share my journey."
+hero_description = "I like to meditate and write. Welcome to my humble digital abode."
 +++
