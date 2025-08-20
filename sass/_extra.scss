@@ -383,6 +383,17 @@ body:has(.hero-split) footer {
   }
 }
 
+// Simple mobile dropdown fix
+@media (max-width: 768px) {
+  .dropdown-content {
+    position: fixed !important;
+    right: 1rem !important;
+    left: auto !important;
+    max-width: 80vw !important;
+    z-index: 9999 !important;
+  }
+}
+
 // Split hero section with image and text - adjusted for footer space
 .hero-split {
   display: flex;

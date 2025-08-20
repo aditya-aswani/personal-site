@@ -24,6 +24,19 @@
   {%- endblock comments_init %}
 
   {%- include "partials/head_js.html" %}
+  
+  <!-- Mobile dropdown fix -->
+  <style>
+    @media (max-width: 768px) {
+      .dropdown-content {
+        position: fixed !important;
+        right: 1rem !important;
+        left: auto !important;
+        max-width: 80vw !important;
+        z-index: 9999 !important;
+      }
+    }
+  </style>
 </head>
 <body>
 {%- block header %}
