@@ -10,4 +10,4 @@ insert_anchor_links = false
 toc = false
 +++
 
-Email me at [hello@adityaaswani.com](mailto:hello@adityaaswani.com)
+Feel free to email me at [hello@adityaaswani.com](mailto:hello@adityaaswani.com)

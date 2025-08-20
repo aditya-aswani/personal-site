@@ -10,7 +10,7 @@ insert_anchor_links = false
 toc = false
 +++
 
-I'm Aditya and I'm passionate about meditation. I made this website to have one place that connects all the different things I'm working on. Here's what they are:
+I'm Aditya and I made this website to have one place that connects all the different things I'm working on. Here's what they are:
 
 ## Projects
 
