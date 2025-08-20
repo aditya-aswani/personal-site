@@ -110,6 +110,28 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Message Sent!</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://adityaaswani.com/contact-success/"/>
+        <id>https://adityaaswani.com/contact-success/</id>
+        
+        <content type="html" xml:base="https://adityaaswani.com/contact-success/">&lt;h2 id=&quot;thank-you-for-your-message&quot;&gt;Thank you for your message!&lt;&#x2F;h2&gt;
+&lt;p&gt;Your message has been sent successfully. I’ll get back to you as soon as possible.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;contact&#x2F;&quot;&gt;← Back to Contact&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Contact</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>
@@ -125,7 +147,34 @@
         <link rel="alternate" type="text/html" href="https://adityaaswani.com/contact/"/>
         <id>https://adityaaswani.com/contact/</id>
         
-        <content type="html" xml:base="https://adityaaswani.com/contact/">&lt;p&gt;Feel free to email me at &lt;a href=&quot;mailto:hello@adityaaswani.com&quot;&gt;hello@adityaaswani.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://adityaaswani.com/contact/">&lt;p&gt;Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!&lt;&#x2F;p&gt;
+&lt;div class=&quot;contact-form&quot;&gt;
+&lt;form method=&quot;POST&quot; action=&quot;https:&#x2F;&#x2F;formspree.io&#x2F;f&#x2F;mpwlgybd&quot;&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;_next&quot; value=&quot;https:&#x2F;&#x2F;adityaaswani.com&#x2F;contact-success&#x2F;&quot; &#x2F;&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;_subject&quot; value=&quot;New Contact Form Submission&quot; &#x2F;&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;_replyto&quot; value=&quot;hello@adityaaswani.com&quot; &#x2F;&gt;
+  &lt;p&gt;
+    &lt;label for=&quot;name&quot;&gt;Name&lt;&#x2F;label&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;Your Name&quot; id=&quot;name&quot; name=&quot;name&quot; required &#x2F;&gt;
+  &lt;&#x2F;p&gt;
+  &lt;p&gt;
+    &lt;label for=&quot;email&quot;&gt;Email Address&lt;&#x2F;label&gt;
+    &lt;input type=&quot;email&quot; placeholder=&quot;your@email.com&quot; id=&quot;email&quot; name=&quot;email&quot; required &#x2F;&gt;
+  &lt;&#x2F;p&gt;
+  &lt;p&gt;
+    &lt;label for=&quot;subject&quot;&gt;Subject&lt;&#x2F;label&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;Subject&quot; id=&quot;subject&quot; name=&quot;subject&quot; required &#x2F;&gt;
+  &lt;&#x2F;p&gt;
+  &lt;p&gt;
+    &lt;label for=&quot;message&quot;&gt;Message&lt;&#x2F;label&gt;
+    &lt;textarea rows=&quot;6&quot; placeholder=&quot;Your message...&quot; id=&quot;message&quot; name=&quot;message&quot; required&gt;&lt;&#x2F;textarea&gt;
+  &lt;&#x2F;p&gt;
+  &lt;p&gt;
+    &lt;button type=&quot;submit&quot;&gt;Send Message&lt;&#x2F;button&gt;
+  &lt;&#x2F;p&gt;
+&lt;&#x2F;form&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;You can also reach me directly at &lt;a href=&quot;mailto:hello@adityaaswani.com&quot;&gt;hello@adityaaswani.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
         
     </entry>
