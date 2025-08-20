@@ -45,3 +45,21 @@ Want to get in touch? Fill out the form below to send me a message and I will ge
 </div>
 
 You can also reach me directly at [hello@adityaaswani.com](mailto:hello@adityaaswani.com)
+
+## Share your Feedback {#share-feedback}
+
+I value all feedback! Constructive, positive, or just general thoughts.
+
+If you'd like me to reply to your feedback, please use the form above. If you'd prefer to be anonymous (please note I won't be able to reply), then you can fill out this form [here](https://adityaa.limesurvey.net/anonymous-feedback?lang=en).
+
+Also, if you'd prefer to give your feedback to me through someone else, feel free to contact any of the following people!
+
+### Pranab Sachi
+[Website](https://www.pranabsachi.com/)
+
+[Email](mailto:pranabsachi@gmail.com)
+
+### Michelle Chai
+[YouTube](https://www.youtube.com/user/brooklynchai)
+
+[Email](mailto:myc219@nyu.edu)
