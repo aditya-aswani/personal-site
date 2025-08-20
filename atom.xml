@@ -110,7 +110,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Contact Me</title>
+        <title>Contact</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>
         
@@ -125,7 +125,8 @@
         <link rel="alternate" type="text/html" href="https://adityaaswani.com/contact/"/>
         <id>https://adityaaswani.com/contact/</id>
         
-        <content type="html" xml:base="https://adityaaswani.com/contact/"></content>
+        <content type="html" xml:base="https://adityaaswani.com/contact/">&lt;p&gt;Email me at &lt;a href=&quot;mailto:hello@adityaaswani.com&quot;&gt;hello@adityaaswani.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
         
     </entry>
 </feed>
