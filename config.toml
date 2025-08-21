@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://adityaaswani.com/"
 title = "Aditya Aswani"
-description = "Software Engineer, Tech Enthusiast, and Problem Solver. Building innovative solutions and sharing knowledge through code."
+description = "Spiritual Friend"
 theme = "abridge"
 
 default_language = "en"
@@ -34,7 +34,7 @@ smart_punctuation = true
 [extra]
 # Theme Configuration
 title_separator = " | "
-title_addition = "Aditya Aswani - Software Engineer"
+title_addition = "Aditya Aswani - Spritual Friend"
 email = "hello@adityaaswani.com"
 author = "Aditya Aswani"
 author_url = "https://adityaaswani.com"
@@ -71,8 +71,8 @@ social = [
 # menu = []
 
 # SEO and Analytics
-keywords = "software engineer, web development, programming, technology, blog"
-meta_keywords = ["software engineering", "web development", "programming", "technology", "blog"]
+keywords = "meditation, mindfulness, software, technology, blog"
+meta_keywords = ["meditation", "mindfulness", "software", "technology", "blog"]
 
 # Recent posts configuration
 recent = false
